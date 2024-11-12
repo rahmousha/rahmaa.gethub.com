@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Topologie en Anneau</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Topologie en Anneau</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="bus.html">Topologie en Bus</a>
+            <a href="etoile.html">Topologie Etoile</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Qu'est-ce que la topologie en anneau ?</h2>
+        <aside><img src="aaa.jpg" alt="" width="35%" height="35%" >
+        </aside>
+        <p>La topologie en anneau est une configuration où chaque périphérique du réseau est connecté à deux autres périphériques, formant un cercle ou un "anneau". Les données circulent dans un seul sens, passant d'un périphérique à un autre, jusqu'à atteindre leur destination.</p>
+
+        <h3>Avantages :</h3>
+        <ul>
+            <li><strong>Transmission ordonnée des données</strong> : Les données circulent dans un seul sens</li>
+            <li><strong>Bonne performance dans les réseaux à </strong> : Étant donné que chaque périphérique ne reçoit que les données qui lui sont destinées, la performance peut être optimale dans un réseau à faible nombre de périphériques.</li>
+            <li><strong>Facilité d'ajout de nouveaux périphériques</strong> : L'ajout de nouveaux dispositifs dans le réseau est relativement simple, car cela ne perturbe pas la circulation des données dans le reste du réseau.</li>
+        </ul>
+
+        <h3>Inconvénients :</h3>
+        <ul>
+            <li><strong>Point de défaillance unique</strong> : Si un périphérique ou un câble tombe en panne, cela peut interrompre la communication dans l'ensemble du réseau. Le dépannage peut être complexe.</li>
+            <li><strong>Risque de congestion</strong> : Comme les données circulent dans un seul sens, si le réseau est trop chargé, cela peut entraîner une congestion et une réduction des performances.</li>
+            <li><strong>Plus difficile à étendre</strong> : Ajouter de nouveaux périphériques dans un réseau en anneau peut être plus compliqué par rapport à d'autres topologies comme l'étoile, car chaque périphérique doit être connecté à ses voisins pour maintenir l'anneau intact.</li>
+        </ul>
+
+        <h3>Exemple de la topologie en anneau :</h3>
+        <p>Dans un réseau en anneau classique, chaque périphérique est connecté à son voisin immédiat. Voici un exemple simplifié de réseau en anneau :</p>
+        <pre>
+    Périphérique A <--> Périphérique B <--> Périphérique C <--> Périphérique D
+        </pre>
+        <p>Les données circuleront dans le sens de A à B, puis de B à C, et ainsi de suite, jusqu'à atteindre leur destination.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rahma | Topologies Réseau</p>
+    </footer>
+</body>
+</html>
